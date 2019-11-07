@@ -1,7 +1,8 @@
 #
 # Marks a line as a task item, and cycles through task icons
+# See readme.md for hotkey info and settings
 #
-# https://github.com/noahcoad/task_list
+# https://github.com/noahcoad/sublime_task_list
 #
 
 import sublime, sublime_plugin
