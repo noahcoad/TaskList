@@ -1,0 +1,24 @@
+ln -s /Users/ncoad/dropbox/code/prjs/sublime/task_list /Users/ncoad/dropbox/code/conf/sublime-text-3/Packages/
+rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/task_list
+ls "$HOME/Library/Application Support/Sublime Text 3/Packages/task_list/"
+~/code/prjs/sublime
+control `
+sublime.log_commands(True)
+https://www.sublimetext.com/docs/3/api_reference.html
+sublime.Region(1,1)
+'\u2705'
+a = ["g", "✡️","✅"]
+b = "✅ hello"
+c = "✡️ hello"
+chars = self.view.substr(sublime.Region(pos, pos + 2))
+if chars[0] in icons:
+	self.view.erase(edit, sublime.Region(pos, pos + (2 if chars[1] == ' ' else 1)))
+else:
+	# c = icons[1]	
+# self.view.erase(edit, s)
+# self.view.insert(edit, r.begin(), icons[0])
+# icons = ['✡️', '✅'] # , '🅿️', '✴️', '🆘']
+# print(icons[1].encode('utf16').decode("utf-16", "ignore"))
+# print('✡️' + icons[0].decode("utf-8", "strict") + '✡️')
+# print("%s %s %s" % (icons[0], icons[1], icons[2]))
+# print(len(icons[1]))

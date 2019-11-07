@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Toggle Task List",
+		"command": "toggle_task_list"
+	}
+]
