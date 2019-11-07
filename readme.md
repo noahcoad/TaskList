@@ -15,3 +15,14 @@ I also like to use:<br>
 ✴️ highlight<br>
 🅿️ informational<br>
 🆘 warning!<br>
+
+## For Example: `todo.txt`
+
+:: today<br>
+✅ order parts for automated sprayer<br>
+✡️ update architecture diagram<br>
+✡️ create POC proposal<br>
+<br>
+:: archive<br>
+✅ change flight to Japan<br>
+✡️ mail package to brother<br>
