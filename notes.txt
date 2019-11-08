@@ -23,3 +23,7 @@ else:
 # print('✡️' + icons[0].decode("utf-8", "strict") + '✡️')
 # print("%s %s %s" % (icons[0], icons[1], icons[2]))
 # print(len(icons[1]))
+
+https://unicode.org/emoji/charts/full-emoji-list.html
+https://emojipedia.org/star-of-david/
+https://emojipedia.org/male-factory-worker/

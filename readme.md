@@ -26,3 +26,9 @@ I also like to use:<br>
 :: archive<br>
 ✅ change flight to Japan<br>
 ✡️ mail package to brother<br>
+
+## See Also
+Check out my other Sublime Text 3 plugins:
+* [Open URL](https://github.com/noahcoad/open-url) .. hit a hotkey to open the url/file/folder under the cursor
+* [Google Spell Check](https://github.com/noahcoad/google-spell-check) .. uses Google to check words and phrases
+* [Auto Open Notes](https://github.com/noahcoad/sublime_auto_open_notes) .. automatically opens a notes.txt or readme.md file when opening a folder in a new window
