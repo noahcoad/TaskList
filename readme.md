@@ -3,7 +3,7 @@ A [Sublime Text 3](https://www.sublimetext.com/) Plugin
 
 Toggles a Task List icon in front of the line.
 Similar to "Toggle Comment", but cycles through emoji "icons"
-Command is called "Toggle Task List" and is mapped to `command + option + t` on mac by default
+Command is called "Toggle Task List" and is mapped to <kbd>command+option+t</kbd> on mac by default
 
 Defaults:<br>
 ✡️ to do<br>
