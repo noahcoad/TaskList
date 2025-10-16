@@ -1,5 +1,5 @@
 # Task List
-A [Sublime Text 3](https://www.sublimetext.com/) Plugin
+A [Sublime Text](https://www.sublimetext.com/) Plugin
 
 Toggles an Task List emoji in front of a line.
 Similar to "Toggle Comment", but cycles through emoji "icons"
