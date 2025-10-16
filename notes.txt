@@ -1,4 +1,4 @@
-https://github.com/noahcoad/sublime_task_list
+https://github.com/noahcoad/TaskList
 ln -s /Users/ncoad/dropbox/code/prj/sublime/task_list /Users/ncoad/dropbox/code/conf/sublime-text-3/Packages/
 rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/task_list
 ls "$HOME/Library/Application Support/Sublime Text 3/Packages/task_list/"

@@ -2,16 +2,15 @@
 # Marks a line as a task item, and cycles through task icons
 # See readme.md for hotkey info and settings
 #
-# https://github.com/noahcoad/sublime_task_list
+# https://github.com/noahcoad/TaskList
 #
 
 import sublime, sublime_plugin
 
-
 class ToggleTaskListCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		# load the list of emoji icons to be used for lists
-		icons = sublime.load_settings("task_list.sublime-settings").get('icons')
+		icons = sublime.load_settings("TaskList.sublime-settings").get('icons')
 
 		# go through each selection
 		for s in self.view.sel():
