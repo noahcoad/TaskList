@@ -6,7 +6,7 @@
 #
 
 import sublime, sublime_plugin
-import os.path
+
 
 class ToggleTaskListCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
@@ -21,13 +21,13 @@ class ToggleTaskListCommand(sublime_plugin.TextCommand):
 				t = self.view.substr(r)
 
 				# get the position of the first non-whitespace character
-				pos = r.begin() + next(iter(i for i,c in enumerate(t) if c != ' ' and c != '\t'), len(t))
+				pos = r.begin() + next((i for i, c in enumerate(t) if c != ' ' and c != '\t'), len(t))
 
 				# text from first non-white to end
 				line = self.view.substr(sublime.Region(pos, r.end()))
 
 				# check to see if these first characters match one of the task icons
-				icon_index = next(iter(index for index,icon in enumerate(icons) if len(line) >= len(icon) and line[0:len(icon)] == icon), -1)
+				icon_index = next((index for index, icon in enumerate(icons) if len(line) >= len(icon) and line[0:len(icon)] == icon), -1)
 
 				# if the first characters match one of the icons, cycle to the next
 				if icon_index > -1:
@@ -48,7 +48,7 @@ class ToggleTaskListCommand(sublime_plugin.TextCommand):
 
 
 # p.s. Yes, I'm using hard tabs for indentation.  bite me =P
-# set tabs to whatever level of indentation you like in your editor 
-# for crying out loud, at least they're consistent here, and use 
+# set tabs to whatever level of indentation you like in your editor
+# for crying out loud, at least they're consistent here, and use
 # the ST3 command "Indentation: Convert to Spaces", which will convert
 # to spaces if you really need to be part of the 'soft tabs only' crowd =)
