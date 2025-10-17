@@ -1,9 +1,12 @@
 # Task List
 A [Sublime Text](https://www.sublimetext.com/) Plugin
 
-Toggles an Task List emoji in front of a line.
-Similar to "Toggle Comment", but cycles through emoji "icons"
-Command is called "Toggle Task List" and is mapped to <kbd>command+option+t</kbd> on mac by default
+Toggles an Task List emoji in front of a line. \
+Similar to "Toggle Comment", but cycles through emoji "icons".
+
+Command is called "Toggle Task List". \
+I recommend mapping to <kbd>option+command+t</kbd> on mac. \
+To do that, 'Sublime Text' menu > 'Settings...' menu > 'Key Bindings' menu > and add `{ "keys": ["super+alt+t"], "command": "toggle_task_list" }` to the right (user) side.
 
 Defaults: \
 ✡️ to do \
