@@ -1,5 +1,6 @@
 # Task List
-A [Sublime Text](https://www.sublimetext.com/) Plugin
+
+A [Sublime Text](https://www.sublimetext.com/) Package
 
 ## Description
 

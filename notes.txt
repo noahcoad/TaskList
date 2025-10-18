@@ -1,4 +1,4 @@
 Development Notes
 https://unicode.org/emoji/charts/full-emoji-list.html
-https://emojipedia.org/star-of-david/
-https://emojipedia.org/male-factory-worker/
+~/txt/my/cmd_git_gh.txt
+~/code/prj/sublime/publishing_plugins.txt
