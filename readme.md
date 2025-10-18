@@ -33,4 +33,4 @@ Edit `task_list.sublime-settings` to alter the emoji icons list to be used.
 ```
 
 ## Also
-Check out my other [Sublime Text plugins](https://gist.github.com/noahcoad/712ba4e38467f5126eb8cedd9ecbc842)
+Check out my other [Sublime Text packages](https://gist.github.com/noahcoad/712ba4e38467f5126eb8cedd9ecbc842)
